@@ -105,7 +105,7 @@ metadata:
       ]
     capabilities: Basic Install
     categories: Integration & Delivery
-    containerImage: quay.io/kuadrant/kuadrant-operator:latest
+    containerImage: quay.io/redhat-user-workloads-stage/jkiely-tenant/rhcl/rhcl-operator@sha256:c23478680775aeaf05c397e84f8c50c2f362991ba8ae0d27c283b63449197c82 
     createdAt: "2024-10-04T10:37:57Z"
     description: A Kubernetes Operator to manage the lifecycle of the Kuadrant system
     operators.operatorframework.io/builder: operator-sdk-v1.32.0
@@ -768,8 +768,14 @@ spec:
     name: Red Hat
     url: https://github.com/Kuadrant/kuadrant-operator
   relatedImages:
-  - image: oci://quay.io/kuadrant/wasm-shim:latest
+  - image: quay.io/redhat-user-workloads-stage/jkiely-tenant/wasm-shim@sha256:f5d8cdb8622ea8d717923f48377a6e1fd81d2b117591f930a8dcdb125afb79e0 
     name: wasmshim
-  - image: quay.io/kuadrant/console-plugin:latest
+  - image: quay.io/redhat-user-workloads-stage/jkiely-tenant/kuadrant-console-plugin@sha256:09cf6e3b15993822c7a9cfc977aafee8ea1166d24cc07628124c3dd5712eef23 
     name: consoleplugin
+  - image: quay.io/redhat-user-workloads-stage/jkiely-tenant/rhcl/dns-operator@sha256:b17365bf1ee981b49d23845ae6130e95ceb2aaef388b26f98917c61463ebb27d 
+    name: dnsoperator
+  - image: quay.io/redhat-user-workloads-stage/jkiely-tenant/authorino@sha256:48220d3e02bc10a9d4ee93a6382fe77589ba461e87d05e5d499c41d9bc9c0618 
+    name: authorino
+  - image: quay.io/redhat-user-workloads-stage/jkiely-tenant/limitador@sha256:f689b110ed4af3466acfef07923aaa7e185d05aeff04240536dfa0f51b82c48c 
+    name: limitador
   version: 0.0.0
