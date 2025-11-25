@@ -1,6 +1,6 @@
 module github.com/kuadrant/kuadrant-operator
 
-go 1.22.5
+go 1.23
 
 require (
 	github.com/cert-manager/cert-manager v1.12.1
@@ -182,7 +182,7 @@ require (
 	k8s.io/kube-openapi v0.0.0-20240521193020-835d969ad83a // indirect
 	k8s.io/kubectl v0.30.2 // indirect
 	oras.land/oras-go v1.2.5 // indirect
-	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
+	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 	sigs.k8s.io/kustomize/api v0.17.2 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.17.1 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
