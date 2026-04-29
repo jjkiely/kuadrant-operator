@@ -73,7 +73,7 @@ jobs:
           git add -A && git commit -s -m "Prepared release v${{ inputs.kuadrantOperatorVersion }}"
           git push origin release-v${{ inputs.kuadrantOperatorVersion }}
       - name: Create release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         with:
           name: v${{ inputs.kuadrantOperatorVersion }}
           tag_name: v${{ inputs.kuadrantOperatorVersion }}
