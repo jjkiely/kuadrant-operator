@@ -42,7 +42,7 @@ jobs:
         # Only run if the feature branch is in your repo (not in a fork)
         # as Tokenless uploading is rate limited for public repos
         if: github.event.pull_request.head.repo.full_name == github.repository
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v7
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           flags: unit
@@ -96,7 +96,7 @@ jobs:
         # Only run if the feature branch is in your repo (not in a fork)
         # as Tokenless uploading is rate limited for public repos
         if: github.event.pull_request.head.repo.full_name == github.repository
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v7
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           flags: controllers-integration
@@ -141,7 +141,7 @@ jobs:
         # Only run if the feature branch is in your repo (not in a fork)
         # as Tokenless uploading is rate limited for public repos
         if: github.event.pull_request.head.repo.full_name == github.repository
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v7
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           flags: bare-k8s-integration
@@ -186,7 +186,7 @@ jobs:
         # Only run if the feature branch is in your repo (not in a fork)
         # as Tokenless uploading is rate limited for public repos
         if: github.event.pull_request.head.repo.full_name == github.repository
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v7
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           flags: gatewayapi-integration
@@ -235,7 +235,7 @@ jobs:
         # Only run if the feature branch is in your repo (not in a fork)
         # as Tokenless uploading is rate limited for public repos
         if: github.event.pull_request.head.repo.full_name == github.repository
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v7
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           flags: ${{ matrix.gatewayapi-provider }}-integration
