@@ -188,6 +188,6 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 )
 
-replace maistra.io/istio-operator => github.com/maistra/istio-operator v0.0.0-20240217080932-98753cb28cd7
+replace maistra.io/istio-operator => github.com/maistra/istio-operator v0.0.0-20260622163013-d8661db79a1c
 
 replace github.com/imdario/mergo => dario.cat/mergo v0.3.5
