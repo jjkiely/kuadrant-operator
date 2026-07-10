@@ -258,16 +258,10 @@ github.com/kuadrant/authorino v0.18.0 h1:9NjOly+Esy63JTE+CA2Aoapq5t1nJPi3lR50B5j
 github.com/kuadrant/authorino v0.18.0/go.mod h1:70VTo3BuAgHFqWhQHEgjJwlDOKNcsmA0A3WebRQeGUA=
 github.com/kuadrant/authorino-operator v0.11.1 h1:jndTZhiHMU+2Dk0NU+KP2+MUSfvclrn+YtTCQDJj+1s=
 github.com/kuadrant/authorino-operator v0.11.1/go.mod h1:TeFFdX477vUTMushCojaHpvwPLga4DpErGI2oQbqFIs=
-github.com/kuadrant/dns-operator v0.0.0-20240926100317-2e2497411ab3 h1:r5Ed62AetTJhbJGEinM/G7ugdxV6Kp/kcVIpxOVxduM=
-github.com/kuadrant/dns-operator v0.0.0-20240926100317-2e2497411ab3/go.mod h1:IHAt2o/VH1c0GIZTprggUDZuxoH0I304R9DUErBNIhk=
 github.com/kuadrant/dns-operator v0.0.0-20241002074817-d0cab9eecbdb h1:8cb/OsWDOrtjyFBobTzy2NGMQdVxGl4xAaQryFQYdQQ=
 github.com/kuadrant/dns-operator v0.0.0-20241002074817-d0cab9eecbdb/go.mod h1:IHAt2o/VH1c0GIZTprggUDZuxoH0I304R9DUErBNIhk=
-github.com/kuadrant/dns-operator v0.6.0 h1:PH/cbK8Oz6EXcKO9kQH7Ovt8EskoAr70s58BHNppWpY=
-github.com/kuadrant/dns-operator v0.6.0/go.mod h1:v6I6UWXmyVx3u5fatdw3PoS5owNvxkTMUE7gTC/Tfd0=
 github.com/kuadrant/limitador-operator v0.9.0 h1:hTQ6CFPayf/sL7cIzwWjCoU8uTn6fzWdsJgKbDlnFts=
 github.com/kuadrant/limitador-operator v0.9.0/go.mod h1:DQOlg9qFOcnWPrwO529JRCMLLOEXJQxkmOes952S/Hw=
-github.com/kuadrant/policy-machinery v0.2.0 h1:6kACb+bdEwHXz2tvTs6dlLgvxFgFrowvGTZKMI9p0Qo=
-github.com/kuadrant/policy-machinery v0.2.0/go.mod h1:ZV4xS0CCxPgu/Xg6gz+YUaS9zqEXKOiAj33bZ67B6Lo=
 github.com/kuadrant/policy-machinery v0.5.0 h1:hTllNYswhEOFrS/uj8kY4a4wq2W1xL2hagHeftn9TTY=
 github.com/kuadrant/policy-machinery v0.5.0/go.mod h1:ZV4xS0CCxPgu/Xg6gz+YUaS9zqEXKOiAj33bZ67B6Lo=
 github.com/kylelemons/godebug v1.1.0 h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0SNc=
@@ -678,8 +672,8 @@ k8s.io/kube-openapi v0.0.0-20240521193020-835d969ad83a h1:zD1uj3Jf+mD4zmA7W+goE5
 k8s.io/kube-openapi v0.0.0-20240521193020-835d969ad83a/go.mod h1:UxDHUPsUwTOOxSU+oXURfFBcAS6JwiRXTYqYwfuGowc=
 k8s.io/kubectl v0.30.2 h1:cgKNIvsOiufgcs4yjvgkK0+aPCfa8pUwzXdJtkbhsH8=
 k8s.io/kubectl v0.30.2/go.mod h1:rz7GHXaxwnigrqob0lJsiA07Df8RE3n1TSaC2CTeuB4=
-k8s.io/utils v0.0.0-20240502163921-fe8a2dddb1d0 h1:jgGTlFYnhF1PM1Ax/lAlxUPE+KfCIXHaathvJg1C3ak=
-k8s.io/utils v0.0.0-20240502163921-fe8a2dddb1d0/go.mod h1:OLgZIPagt7ERELqWJFomSt595RzquPNLL48iOWgYOg0=
+k8s.io/utils v0.0.0-20260707023825-cf1189d6abe3 h1:jVkFFVfXdXP74B/zbO3hM3hpSFD0xvhQ5U686DPurkE=
+k8s.io/utils v0.0.0-20260707023825-cf1189d6abe3/go.mod h1:M2s5JB1lIYP3jzZdorPLHXIPJzt9vv2muW5a6L9DtNM=
 oras.land/oras-go v1.2.5 h1:XpYuAwAb0DfQsunIyMfeET92emK8km3W4yEzZvUbsTo=
 oras.land/oras-go v1.2.5/go.mod h1:PuAwRShRZCsZb7g8Ar3jKKQR/2A/qN+pkYxIOd/FAoo=
 sigs.k8s.io/controller-runtime v0.18.4 h1:87+guW1zhvuPLh1PHybKdYFLU0YJp4FhJRmiHvm5BZw=

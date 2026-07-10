@@ -1,6 +1,6 @@
 module github.com/kuadrant/kuadrant-operator
 
-go 1.22.5
+go 1.25
 
 require (
 	github.com/cert-manager/cert-manager v1.12.1
@@ -32,7 +32,7 @@ require (
 	k8s.io/apimachinery v0.30.2
 	k8s.io/client-go v0.30.2
 	k8s.io/klog/v2 v2.130.1
-	k8s.io/utils v0.0.0-20240502163921-fe8a2dddb1d0
+	k8s.io/utils v0.0.0-20260707023825-cf1189d6abe3
 	maistra.io/istio-operator v0.0.0-20240217080932-98753cb28cd7
 	sigs.k8s.io/controller-runtime v0.18.4
 	sigs.k8s.io/external-dns v0.14.0
