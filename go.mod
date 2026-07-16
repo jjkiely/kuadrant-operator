@@ -11,7 +11,7 @@ require (
 	github.com/google/go-cmp v0.6.0
 	github.com/google/uuid v1.6.0
 	github.com/kuadrant/authorino v0.18.0
-	github.com/kuadrant/authorino-operator v0.11.1
+	github.com/kuadrant/authorino-operator v0.26.0
 	github.com/kuadrant/dns-operator v0.0.0-20241002074817-d0cab9eecbdb
 	github.com/kuadrant/limitador-operator v0.9.0
 	github.com/kuadrant/policy-machinery v0.5.0
