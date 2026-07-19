@@ -36,7 +36,7 @@ require (
 	maistra.io/istio-operator v0.0.0-20240217080932-98753cb28cd7
 	sigs.k8s.io/controller-runtime v0.18.4
 	sigs.k8s.io/external-dns v0.14.0
-	sigs.k8s.io/gateway-api v1.1.0
+	sigs.k8s.io/gateway-api v1.6.1
 	sigs.k8s.io/yaml v1.4.0
 )
 
