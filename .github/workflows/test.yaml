@@ -28,7 +28,7 @@ jobs:
         shell: bash
     steps:
       - name: Set up Go ${{ matrix.go-version }}
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v7
         with:
           go-version: ${{ matrix.go-version }}
         id: go
@@ -69,7 +69,7 @@ jobs:
         shell: bash
     steps:
       - name: Set up Go 1.22.x
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v7
         with:
           go-version: 1.22.x
         id: go
@@ -114,7 +114,7 @@ jobs:
         shell: bash
     steps:
       - name: Set up Go 1.22.x
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v7
         with:
           go-version: 1.22.x
         id: go
@@ -159,7 +159,7 @@ jobs:
         shell: bash
     steps:
       - name: Set up Go 1.22.x
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v7
         with:
           go-version: 1.22.x
         id: go
@@ -208,7 +208,7 @@ jobs:
         shell: bash
     steps:
       - name: Set up Go 1.22.x
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v7
         with:
           go-version: 1.22.x
         id: go
@@ -247,7 +247,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Go 1.22.x
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v7
         with:
           go-version: 1.22.x
         id: go
@@ -262,7 +262,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Go 1.22.x
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v7
         with:
           go-version: 1.22.x
         id: go
@@ -277,7 +277,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Go 1.22.x
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v7
         with:
           go-version: 1.22.x
         id: go
@@ -299,7 +299,7 @@ jobs:
         shell: bash
     steps:
       - name: Set up Go ${{ matrix.go-version }}
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v7
         with:
           go-version: ${{ matrix.go-version }}
         id: go
@@ -314,7 +314,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Go 1.22.x
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v7
         with:
           go-version: 1.22.x
         id: go
@@ -329,7 +329,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Go 1.22.x
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v7
         with:
           go-version: 1.22.x
         id: go
@@ -344,7 +344,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Go 1.22.x
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v7
         with:
           go-version: 1.22.x
         id: go
