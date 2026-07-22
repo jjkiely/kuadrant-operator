@@ -21,7 +21,7 @@ require (
 	github.com/openshift/api v0.0.0-20240926211938-f89ab92f1597
 	github.com/prometheus/client_golang v1.19.1
 	github.com/samber/lo v1.39.0
-	go.uber.org/zap v1.27.0
+	go.uber.org/zap v1.28.0
 	google.golang.org/protobuf v1.34.2
 	gotest.tools v2.2.0+incompatible
 	istio.io/api v1.22.3-0.20240703105953-437a88321a16
