@@ -190,4 +190,4 @@ require (
 
 replace maistra.io/istio-operator => github.com/maistra/istio-operator v0.0.0-20240217080932-98753cb28cd7
 
-replace github.com/imdario/mergo => dario.cat/mergo v0.3.5
+replace github.com/imdario/mergo => dario.cat/mergo v1.0.2
