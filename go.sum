@@ -93,8 +93,8 @@ github.com/docker/distribution v2.8.3+incompatible h1:AtKxIZ36LoNK51+Z6RpzLpddBi
 github.com/docker/distribution v2.8.3+incompatible/go.mod h1:J2gT2udsDAN96Uj4KfcMRqY0/ypR+oyYUYmja8H+y+w=
 github.com/docker/docker v27.1.1+incompatible h1:hO/M4MtV36kzKldqnA37IWhebRA+LnqqcqDja6kVaKY=
 github.com/docker/docker v27.1.1+incompatible/go.mod h1:eEKB0N0r5NX/I1kEveEz05bcu8tLC/8azJZsviup8Sk=
-github.com/docker/docker-credential-helpers v0.8.2 h1:bX3YxiGzFP5sOXWc3bTPEXdEaZSeVMrFgOr3T+zrFAo=
-github.com/docker/docker-credential-helpers v0.8.2/go.mod h1:P3ci7E3lwkZg6XiHdRKft1KckHiO9a2rNtyFbZ/ry9M=
+github.com/docker/docker-credential-helpers v0.9.9 h1:BkydjIgZ46JnDbqyM2p2fc63KMw6y+KHL3Em/2AGJ7w=
+github.com/docker/docker-credential-helpers v0.9.9/go.mod h1:v1S+hepowrQXITkEfw6o4+BMbGot02wiKpzWhGUZK6c=
 github.com/docker/go-connections v0.5.0 h1:USnMq7hx7gwdVZq1L49hLXaFtUdTADjXGp+uj1Br63c=
 github.com/docker/go-connections v0.5.0/go.mod h1:ov60Kzw0kKElRwhNs9UlUHAE/F9Fe6GLaXnqyDdmEXc=
 github.com/docker/go-events v0.0.0-20190806004212-e31b211e4f1c h1:+pKlWGMw7gf6bQ+oDZB4KHQFypsfjYlq/C4rfL7D3g8=
@@ -258,16 +258,10 @@ github.com/kuadrant/authorino v0.18.0 h1:9NjOly+Esy63JTE+CA2Aoapq5t1nJPi3lR50B5j
 github.com/kuadrant/authorino v0.18.0/go.mod h1:70VTo3BuAgHFqWhQHEgjJwlDOKNcsmA0A3WebRQeGUA=
 github.com/kuadrant/authorino-operator v0.11.1 h1:jndTZhiHMU+2Dk0NU+KP2+MUSfvclrn+YtTCQDJj+1s=
 github.com/kuadrant/authorino-operator v0.11.1/go.mod h1:TeFFdX477vUTMushCojaHpvwPLga4DpErGI2oQbqFIs=
-github.com/kuadrant/dns-operator v0.0.0-20240926100317-2e2497411ab3 h1:r5Ed62AetTJhbJGEinM/G7ugdxV6Kp/kcVIpxOVxduM=
-github.com/kuadrant/dns-operator v0.0.0-20240926100317-2e2497411ab3/go.mod h1:IHAt2o/VH1c0GIZTprggUDZuxoH0I304R9DUErBNIhk=
 github.com/kuadrant/dns-operator v0.0.0-20241002074817-d0cab9eecbdb h1:8cb/OsWDOrtjyFBobTzy2NGMQdVxGl4xAaQryFQYdQQ=
 github.com/kuadrant/dns-operator v0.0.0-20241002074817-d0cab9eecbdb/go.mod h1:IHAt2o/VH1c0GIZTprggUDZuxoH0I304R9DUErBNIhk=
-github.com/kuadrant/dns-operator v0.6.0 h1:PH/cbK8Oz6EXcKO9kQH7Ovt8EskoAr70s58BHNppWpY=
-github.com/kuadrant/dns-operator v0.6.0/go.mod h1:v6I6UWXmyVx3u5fatdw3PoS5owNvxkTMUE7gTC/Tfd0=
 github.com/kuadrant/limitador-operator v0.9.0 h1:hTQ6CFPayf/sL7cIzwWjCoU8uTn6fzWdsJgKbDlnFts=
 github.com/kuadrant/limitador-operator v0.9.0/go.mod h1:DQOlg9qFOcnWPrwO529JRCMLLOEXJQxkmOes952S/Hw=
-github.com/kuadrant/policy-machinery v0.2.0 h1:6kACb+bdEwHXz2tvTs6dlLgvxFgFrowvGTZKMI9p0Qo=
-github.com/kuadrant/policy-machinery v0.2.0/go.mod h1:ZV4xS0CCxPgu/Xg6gz+YUaS9zqEXKOiAj33bZ67B6Lo=
 github.com/kuadrant/policy-machinery v0.5.0 h1:hTllNYswhEOFrS/uj8kY4a4wq2W1xL2hagHeftn9TTY=
 github.com/kuadrant/policy-machinery v0.5.0/go.mod h1:ZV4xS0CCxPgu/Xg6gz+YUaS9zqEXKOiAj33bZ67B6Lo=
 github.com/kylelemons/godebug v1.1.0 h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0SNc=
