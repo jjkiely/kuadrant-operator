@@ -4,7 +4,7 @@ go 1.22.5
 
 require (
 	github.com/cert-manager/cert-manager v1.12.1
-	github.com/elliotchance/orderedmap/v2 v2.2.0
+	github.com/elliotchance/orderedmap/v2 v2.7.0
 	github.com/envoyproxy/gateway v1.1.0
 	github.com/go-logr/logr v1.4.2
 	github.com/goccy/go-yaml v1.12.0
