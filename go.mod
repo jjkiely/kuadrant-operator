@@ -1,6 +1,6 @@
 module github.com/kuadrant/kuadrant-operator
 
-go 1.22.5
+go 1.25.0
 
 require (
 	github.com/cert-manager/cert-manager v1.12.1
@@ -8,7 +8,7 @@ require (
 	github.com/envoyproxy/gateway v1.1.0
 	github.com/go-logr/logr v1.4.2
 	github.com/goccy/go-yaml v1.12.0
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.6.0
 	github.com/kuadrant/authorino v0.18.0
 	github.com/kuadrant/authorino-operator v0.11.1
@@ -22,7 +22,7 @@ require (
 	github.com/prometheus/client_golang v1.19.1
 	github.com/samber/lo v1.39.0
 	go.uber.org/zap v1.27.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.36.12
 	gotest.tools v2.2.0+incompatible
 	istio.io/api v1.22.3-0.20240703105953-437a88321a16
 	istio.io/client-go v1.22.3-0.20240703110620-5f69a1e4c030
@@ -168,7 +168,7 @@ require (
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.4.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240701130421-f6361c86f094 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240730163845-b1a4ccb954bf // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260831171406-18b4a7587f8a // indirect
 	google.golang.org/grpc v1.65.0 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
