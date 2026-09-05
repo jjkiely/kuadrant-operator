@@ -53,6 +53,8 @@ github.com/cespare/xxhash/v2 v2.3.0 h1:UL815xU9SqsFlibzuggzjXhog7bL6oX9BbNZnL2UF
 github.com/cespare/xxhash/v2 v2.3.0/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
 github.com/chai2010/gettext-go v1.0.3 h1:9liNh8t+u26xl5ddmWLmsOsdNLwkdRTg5AG+JnTiM80=
 github.com/chai2010/gettext-go v1.0.3/go.mod h1:y+wnP2cHYaVj19NZhYKAwEMH2CI1gNHeQQ+5AjwawxA=
+github.com/clipperhouse/uax29/v2 v2.2.0 h1:ChwIKnQN3kcZteTXMgb1wztSgaU+ZemkgWdohwgs8tY=
+github.com/clipperhouse/uax29/v2 v2.2.0/go.mod h1:EFJ2TJMRUaplDxHKj1qAEhCtQPW2tJSwu5BF98AuoVM=
 github.com/cncf/xds/go v0.0.0-20240423153145-555b57ec207b h1:ga8SEFjZ60pxLcmhnThWgvH2wg8376yUJmPhEH4H3kw=
 github.com/cncf/xds/go v0.0.0-20240423153145-555b57ec207b/go.mod h1:W+zGtBO5Y1IgJhy4+A9GOqVhqLpfZi+vwmdNXUehLA8=
 github.com/containerd/cgroups v1.1.0 h1:v8rEWFl6EoqHB+swVNjVoCJE8o3jX7e8nqBGPLaDFBM=
@@ -258,16 +260,10 @@ github.com/kuadrant/authorino v0.18.0 h1:9NjOly+Esy63JTE+CA2Aoapq5t1nJPi3lR50B5j
 github.com/kuadrant/authorino v0.18.0/go.mod h1:70VTo3BuAgHFqWhQHEgjJwlDOKNcsmA0A3WebRQeGUA=
 github.com/kuadrant/authorino-operator v0.11.1 h1:jndTZhiHMU+2Dk0NU+KP2+MUSfvclrn+YtTCQDJj+1s=
 github.com/kuadrant/authorino-operator v0.11.1/go.mod h1:TeFFdX477vUTMushCojaHpvwPLga4DpErGI2oQbqFIs=
-github.com/kuadrant/dns-operator v0.0.0-20240926100317-2e2497411ab3 h1:r5Ed62AetTJhbJGEinM/G7ugdxV6Kp/kcVIpxOVxduM=
-github.com/kuadrant/dns-operator v0.0.0-20240926100317-2e2497411ab3/go.mod h1:IHAt2o/VH1c0GIZTprggUDZuxoH0I304R9DUErBNIhk=
 github.com/kuadrant/dns-operator v0.0.0-20241002074817-d0cab9eecbdb h1:8cb/OsWDOrtjyFBobTzy2NGMQdVxGl4xAaQryFQYdQQ=
 github.com/kuadrant/dns-operator v0.0.0-20241002074817-d0cab9eecbdb/go.mod h1:IHAt2o/VH1c0GIZTprggUDZuxoH0I304R9DUErBNIhk=
-github.com/kuadrant/dns-operator v0.6.0 h1:PH/cbK8Oz6EXcKO9kQH7Ovt8EskoAr70s58BHNppWpY=
-github.com/kuadrant/dns-operator v0.6.0/go.mod h1:v6I6UWXmyVx3u5fatdw3PoS5owNvxkTMUE7gTC/Tfd0=
 github.com/kuadrant/limitador-operator v0.9.0 h1:hTQ6CFPayf/sL7cIzwWjCoU8uTn6fzWdsJgKbDlnFts=
 github.com/kuadrant/limitador-operator v0.9.0/go.mod h1:DQOlg9qFOcnWPrwO529JRCMLLOEXJQxkmOes952S/Hw=
-github.com/kuadrant/policy-machinery v0.2.0 h1:6kACb+bdEwHXz2tvTs6dlLgvxFgFrowvGTZKMI9p0Qo=
-github.com/kuadrant/policy-machinery v0.2.0/go.mod h1:ZV4xS0CCxPgu/Xg6gz+YUaS9zqEXKOiAj33bZ67B6Lo=
 github.com/kuadrant/policy-machinery v0.5.0 h1:hTllNYswhEOFrS/uj8kY4a4wq2W1xL2hagHeftn9TTY=
 github.com/kuadrant/policy-machinery v0.5.0/go.mod h1:ZV4xS0CCxPgu/Xg6gz+YUaS9zqEXKOiAj33bZ67B6Lo=
 github.com/kylelemons/godebug v1.1.0 h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0SNc=
@@ -306,8 +302,8 @@ github.com/mattn/go-colorable v0.1.13/go.mod h1:7S9/ev0klgBDR4GtXTXX8a3vIGJpMovk
 github.com/mattn/go-isatty v0.0.16/go.mod h1:kYGgaQfpe5nmfYZH+SKPsOc2e4SrIfOl2e/yFXSvRLM=
 github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY=
 github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
-github.com/mattn/go-runewidth v0.0.15 h1:UNAjwbU9l54TA3KzvqLGxwWjHmMgBUVhBiTjelZgg3U=
-github.com/mattn/go-runewidth v0.0.15/go.mod h1:Jdepj2loyihRzMpdS35Xk/zdY8IAYHsh153qUoGf23w=
+github.com/mattn/go-runewidth v0.0.29 h1:3oGF3R/S2N9DQ3ptftzVIvg2eicmojCzlwBEmqEPDfQ=
+github.com/mattn/go-runewidth v0.0.29/go.mod h1:3qAiGCV4Koz/yuveO58qUefmUTRm8r0IGEXZ9jeHp/8=
 github.com/mattn/go-sqlite3 v1.14.6/go.mod h1:NyWgC/yNuGj7Q9rpYnZvas74GogHl5/Z4A/KQRfk6bU=
 github.com/mattn/go-sqlite3 v1.14.19 h1:fhGleo2h1p8tVChob4I9HpmVFIAkKGpiukdrgQbWfGI=
 github.com/mattn/go-sqlite3 v1.14.19/go.mod h1:2eHXhiwb8IkHr+BDWZGa96P6+rkvnG63S2DGjv9HUNg=
@@ -397,9 +393,6 @@ github.com/redis/go-redis/extra/redisotel/v9 v9.5.3 h1:kuvuJL/+MZIEdvtb/kTBRiRgY
 github.com/redis/go-redis/extra/redisotel/v9 v9.5.3/go.mod h1:7f/FMrf5RRRVHXgfk7CzSVzXHiWeuOQUu2bsVqWoa+g=
 github.com/redis/go-redis/v9 v9.6.1 h1:HHDteefn6ZkTtY5fGUE8tj8uy85AHk6zP7CpzIAM0y4=
 github.com/redis/go-redis/v9 v9.6.1/go.mod h1:0C0c6ycQsdpVNQpxb1njEQIqkx5UcsM8FJCQLgE9+RA=
-github.com/rivo/uniseg v0.2.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
-github.com/rivo/uniseg v0.4.7 h1:WUdvkW8uEhrYfLC4ZzdpI2ztxP1I582+49Oc5Mq64VQ=
-github.com/rivo/uniseg v0.4.7/go.mod h1:FN3SvrM+Zdj16jyLfmOkMNblXMcoc8DfTHruCPUcx88=
 github.com/rogpeppe/go-internal v1.12.0 h1:exVL4IDcn6na9z1rAb56Vxr+CgyK3nn3O+epU5NdKM8=
 github.com/rogpeppe/go-internal v1.12.0/go.mod h1:E+RYuTGaKKdloAfM02xzb0FW3Paa99yedzYV+kq4uf4=
 github.com/rubenv/sql-migrate v1.6.1 h1:bo6/sjsan9HaXAsNxYP/jCEDUGibHp8JmOBw7NTGRos=
