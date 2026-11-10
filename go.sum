@@ -258,16 +258,10 @@ github.com/kuadrant/authorino v0.18.0 h1:9NjOly+Esy63JTE+CA2Aoapq5t1nJPi3lR50B5j
 github.com/kuadrant/authorino v0.18.0/go.mod h1:70VTo3BuAgHFqWhQHEgjJwlDOKNcsmA0A3WebRQeGUA=
 github.com/kuadrant/authorino-operator v0.11.1 h1:jndTZhiHMU+2Dk0NU+KP2+MUSfvclrn+YtTCQDJj+1s=
 github.com/kuadrant/authorino-operator v0.11.1/go.mod h1:TeFFdX477vUTMushCojaHpvwPLga4DpErGI2oQbqFIs=
-github.com/kuadrant/dns-operator v0.0.0-20240926100317-2e2497411ab3 h1:r5Ed62AetTJhbJGEinM/G7ugdxV6Kp/kcVIpxOVxduM=
-github.com/kuadrant/dns-operator v0.0.0-20240926100317-2e2497411ab3/go.mod h1:IHAt2o/VH1c0GIZTprggUDZuxoH0I304R9DUErBNIhk=
 github.com/kuadrant/dns-operator v0.0.0-20241002074817-d0cab9eecbdb h1:8cb/OsWDOrtjyFBobTzy2NGMQdVxGl4xAaQryFQYdQQ=
 github.com/kuadrant/dns-operator v0.0.0-20241002074817-d0cab9eecbdb/go.mod h1:IHAt2o/VH1c0GIZTprggUDZuxoH0I304R9DUErBNIhk=
-github.com/kuadrant/dns-operator v0.6.0 h1:PH/cbK8Oz6EXcKO9kQH7Ovt8EskoAr70s58BHNppWpY=
-github.com/kuadrant/dns-operator v0.6.0/go.mod h1:v6I6UWXmyVx3u5fatdw3PoS5owNvxkTMUE7gTC/Tfd0=
 github.com/kuadrant/limitador-operator v0.9.0 h1:hTQ6CFPayf/sL7cIzwWjCoU8uTn6fzWdsJgKbDlnFts=
 github.com/kuadrant/limitador-operator v0.9.0/go.mod h1:DQOlg9qFOcnWPrwO529JRCMLLOEXJQxkmOes952S/Hw=
-github.com/kuadrant/policy-machinery v0.2.0 h1:6kACb+bdEwHXz2tvTs6dlLgvxFgFrowvGTZKMI9p0Qo=
-github.com/kuadrant/policy-machinery v0.2.0/go.mod h1:ZV4xS0CCxPgu/Xg6gz+YUaS9zqEXKOiAj33bZ67B6Lo=
 github.com/kuadrant/policy-machinery v0.5.0 h1:hTllNYswhEOFrS/uj8kY4a4wq2W1xL2hagHeftn9TTY=
 github.com/kuadrant/policy-machinery v0.5.0/go.mod h1:ZV4xS0CCxPgu/Xg6gz+YUaS9zqEXKOiAj33bZ67B6Lo=
 github.com/kylelemons/godebug v1.1.0 h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0SNc=
@@ -395,8 +389,8 @@ github.com/redis/go-redis/extra/rediscmd/v9 v9.5.3 h1:1/BDligzCa40GTllkDnY3Y5DTH
 github.com/redis/go-redis/extra/rediscmd/v9 v9.5.3/go.mod h1:3dZmcLn3Qw6FLlWASn1g4y+YO9ycEFUOM+bhBmzLVKQ=
 github.com/redis/go-redis/extra/redisotel/v9 v9.5.3 h1:kuvuJL/+MZIEdvtb/kTBRiRgYaOmx1l+lYJyVdrRUOs=
 github.com/redis/go-redis/extra/redisotel/v9 v9.5.3/go.mod h1:7f/FMrf5RRRVHXgfk7CzSVzXHiWeuOQUu2bsVqWoa+g=
-github.com/redis/go-redis/v9 v9.6.1 h1:HHDteefn6ZkTtY5fGUE8tj8uy85AHk6zP7CpzIAM0y4=
-github.com/redis/go-redis/v9 v9.6.1/go.mod h1:0C0c6ycQsdpVNQpxb1njEQIqkx5UcsM8FJCQLgE9+RA=
+github.com/redis/go-redis/v9 v9.6.3 h1:8Dr5ygF1QFXRxIH/m3Xg9MMG1rS8YCtAgosrsewT6i0=
+github.com/redis/go-redis/v9 v9.6.3/go.mod h1:0C0c6ycQsdpVNQpxb1njEQIqkx5UcsM8FJCQLgE9+RA=
 github.com/rivo/uniseg v0.2.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/rivo/uniseg v0.4.7 h1:WUdvkW8uEhrYfLC4ZzdpI2ztxP1I582+49Oc5Mq64VQ=
 github.com/rivo/uniseg v0.4.7/go.mod h1:FN3SvrM+Zdj16jyLfmOkMNblXMcoc8DfTHruCPUcx88=
