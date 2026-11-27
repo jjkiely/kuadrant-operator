@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/elliotchance/orderedmap/v2"
+	"github.com/elliotchance/orderedmap/v3"
 	limitadorv1alpha1 "github.com/kuadrant/limitador-operator/api/v1alpha1"
 	"k8s.io/apimachinery/pkg/types"
 
